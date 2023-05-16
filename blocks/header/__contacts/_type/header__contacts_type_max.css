@@ -1,0 +1,5 @@
+@media screen and (max-width: 844px) {
+    .header__contacts_type_max {
+        display: none;
+    }
+}

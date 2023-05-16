@@ -1,0 +1,9 @@
+.header__navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto 44px;
+    align-items: center;
+    max-width: 1152px;
+    padding: 0 40px 0;
+}

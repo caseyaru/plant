@@ -1,0 +1,15 @@
+.header__main {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 102px;
+    /* gap: 113px; */
+    max-width: 1222px;
+    align-items: center;
+}
+
+@media screen and (max-width: 1280px) {
+    .header__main {
+        /* gap: 104px; */
+        padding: 0 40px 0;
+    }
+}

@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    src: url('./Nunito-Bold.ttf') format('ttf'),
+        url('./Nunito-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./Nunito-SemiBold.ttf') format('ttf'),
+        url('./Nunito-SemiBold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./DMSans-Regular.ttf') format('ttf'),
+        url('./DMSans-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: url('./DMSans-Medium.ttf') format('ttf'),
+        url('./DMSans-Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('./DMSans-Bold.ttf') format('ttf'),
+        url('./DMSans-Bold.woff') format('woff');
+}

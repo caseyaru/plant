@@ -1,0 +1,9 @@
+.inst__photo {
+    margin: 0;
+    padding: 0;
+    width: 230px;
+    height: 241px;
+    object-fit: cover;
+    display: block;
+    opacity: 1;
+}

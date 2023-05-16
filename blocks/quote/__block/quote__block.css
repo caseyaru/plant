@@ -1,0 +1,9 @@
+.quote__block {
+    background-color: #066F14;
+    padding: 20px 24px 30px 32px;
+    position: absolute;
+    bottom: 43px;
+    box-sizing: border-box;
+    width: 597px;
+    z-index: 2;
+}

@@ -1,0 +1,9 @@
+.about__title {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #1A1A1A;
+    margin: 12px 0 0;
+}

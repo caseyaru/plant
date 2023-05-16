@@ -1,0 +1,15 @@
+.catalog__link {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #4A4A4A;
+    text-decoration: none;
+    transition: font-size 0.3s linear, color 0.1s linear;
+}
+
+.catalog__link:hover {
+    color: #066F14;
+    font-size: 18px;
+}

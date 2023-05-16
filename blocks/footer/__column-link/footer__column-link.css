@@ -1,0 +1,15 @@
+.footer__column-link {
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #5A5A5A;
+    text-decoration: none;
+}
+
+.footer__column-link:hover {
+    color: #066F14;
+}

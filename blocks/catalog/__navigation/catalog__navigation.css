@@ -1,0 +1,7 @@
+.catalog__navigation {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 24px;
+    margin-bottom: 50px;
+    gap: 24px;
+}

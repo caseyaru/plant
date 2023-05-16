@@ -1,0 +1,7 @@
+.quote__profile {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-left: 10px;
+    justify-content: space-around;
+}

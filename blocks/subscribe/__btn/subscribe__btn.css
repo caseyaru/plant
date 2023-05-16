@@ -1,0 +1,17 @@
+.subscribe__btn {
+    background-color: #066F14;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FEFEFE;
+    width: 98px;
+    height: 40px;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+}

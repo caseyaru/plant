@@ -1,0 +1,12 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.page {
+    background-color:  #FFFFFF;
+    margin: 0 auto 0;
+    box-sizing: border-box;
+    padding: 40px 0 96px;
+    align-content: center;
+    color: #1A1A1A;
+}

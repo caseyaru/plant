@@ -1,0 +1,9 @@
+.preview__img {
+    width: 215px;
+    height: 215px;
+    transition: 0.6s;
+}
+
+.preview__img:hover {
+    transform: scale(1.2);
+}

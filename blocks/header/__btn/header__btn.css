@@ -1,0 +1,13 @@
+.header__btn {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: white;
+    background: #066F14;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    padding: 12px 16px 12px 16px;
+}

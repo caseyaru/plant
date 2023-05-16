@@ -1,0 +1,21 @@
+.footer__span-text {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    background-color: rgba(6, 111, 20, 0.8);
+    width: 70px;
+    height: 30px;
+    margin: 0;
+    padding: 5px 4px 3px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    position: absolute;
+    bottom: -55%;
+    left: -25%;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}

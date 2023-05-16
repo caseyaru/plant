@@ -1,0 +1,7 @@
+.catalog {
+    display: flex;
+    flex-direction: column;
+    max-width: 1152px;
+    margin: 128px auto 0;
+    align-items: center;
+}

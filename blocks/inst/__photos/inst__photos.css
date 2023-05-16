@@ -1,0 +1,7 @@
+.inst__photos {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+}

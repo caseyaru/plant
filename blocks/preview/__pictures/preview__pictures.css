@@ -1,0 +1,4 @@
+.preview__pictures {
+    display: flex;
+    gap: 24px;
+}

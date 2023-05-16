@@ -1,0 +1,15 @@
+.subscribe__input {
+    width: 100%;
+    height: 56px;
+    border: none;
+    padding: 0 20px 0;
+    box-sizing: border-box;
+    outline: none;
+    background-color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #5A5A5A;
+}

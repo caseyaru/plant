@@ -1,0 +1,16 @@
+.header__btn-learn {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    padding: 16px 32px;
+    margin: 0 0 60px;
+    width: 160px;
+    height: 55px;
+    background: #066F14;
+    border-radius: 4px;
+}

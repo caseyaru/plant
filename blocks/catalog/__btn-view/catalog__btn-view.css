@@ -1,0 +1,15 @@
+.catalog__btn-view {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: white;
+    width: 131px;
+    height: 55px;
+    background: #066F14;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    margin-top: 56px;
+}

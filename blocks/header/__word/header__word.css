@@ -1,0 +1,11 @@
+.header__word {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #1A1A1A;
+    text-align: center;
+    margin: 10px auto 0;
+    padding: 0;
+}

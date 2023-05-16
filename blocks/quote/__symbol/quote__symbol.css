@@ -1,0 +1,7 @@
+.quote__symbol {
+    width: 40px;
+    height: 40px;
+    margin-right: 0;
+    margin-left: auto;
+    object-fit: contain;
+}

@@ -1,0 +1,9 @@
+.footer__icon {
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+}
+
+.footer__icon:hover + .footer__span-text {
+    opacity: 1;
+}
