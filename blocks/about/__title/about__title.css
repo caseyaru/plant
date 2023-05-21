@@ -7,3 +7,10 @@
     color: #1A1A1A;
     margin: 12px 0 0;
 }
+
+@media screen and (max-width:576px) {
+    .about__title {
+        font-size: 30px;
+        line-height: 110%;
+    }
+}

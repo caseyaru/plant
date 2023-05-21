@@ -5,3 +5,10 @@
     list-style: none;
     padding: 0;
 }
+
+
+@media screen and (max-width: 1200px){
+    .inst__photos {
+        display: none;
+    }
+}

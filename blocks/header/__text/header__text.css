@@ -9,3 +9,10 @@
     color: #4A4A4A;
     max-width: 540px;
 }
+
+@media screen and (max-width: 560px){
+    .header__text {
+        font-size: 14px;
+        line-height: 120%;
+    }
+}

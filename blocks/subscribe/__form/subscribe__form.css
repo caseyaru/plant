@@ -4,3 +4,22 @@
     height: 56px;
     margin-top: 30px;
 }
+
+@media screen and (max-width:712px) {
+    .subscribe__form {
+        width: 380px;
+    }
+}
+
+@media screen and (max-width:458px) {
+    .subscribe__form {
+        width: 298px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width:447px) {
+    .subscribe__form {
+        width: 250px;
+    }
+}

@@ -1,7 +1,21 @@
 .quote {
     display: flex;
     gap: 48px;
-    margin: 128px auto 128px;
+    margin: 0 auto 128px;
     justify-content: space-between;
     max-width: 1152px;
+}
+
+@media screen and (max-width:1200px){
+    .quote {
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-bottom: 60px;
+    }
+}
+
+@media screen and (max-width:469px){
+    .quote {
+        gap: 70px;
+    }
 }

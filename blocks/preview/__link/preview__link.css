@@ -14,3 +14,11 @@
 .preview__link:hover {
     color: #066F14;
 }
+
+
+@media screen and (max-width: 1025px) {
+    .preview__link {
+        margin-top: 20px;
+        text-align: center;
+    }
+}

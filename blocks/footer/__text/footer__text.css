@@ -8,3 +8,9 @@
     line-height: 160%;
     color: #5A5A5A;
 }
+
+@media screen and (max-width:486px){
+    .footer__text {
+        font-size: 10px;
+    }
+}

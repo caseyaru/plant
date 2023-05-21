@@ -10,3 +10,9 @@
     color: #4A4A4A;
     max-width: 502px;
 }
+
+@media screen and (max-width:1200px){
+    .quote__description {
+        text-align: center;
+    }
+}

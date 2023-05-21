@@ -7,3 +7,16 @@
     margin: 0;
     padding: 0;
 }
+
+@media screen and (max-width:1200px){
+    .quote__title {
+        text-align: center;
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:469px){
+    .quote__title {
+        font-size: 22px;
+    }
+}

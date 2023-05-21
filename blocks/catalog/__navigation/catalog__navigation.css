@@ -5,3 +5,10 @@
     margin-bottom: 50px;
     gap: 24px;
 }
+
+@media screen and (max-width:928px) {
+    .catalog__navigation {
+        margin-bottom: 30px;
+        margin-top: 14px;
+    }
+}

@@ -8,3 +8,16 @@
     margin: 12px 0 0;
     padding: 0;
 }
+
+@media screen and (max-width:1200px) {
+    .card__cost {
+        margin-top: 6px;
+    }
+}
+
+@media screen and (max-width:925px) {
+    .card__cost {
+        font-size: 12px;
+        margin-top: 0;
+    }
+}

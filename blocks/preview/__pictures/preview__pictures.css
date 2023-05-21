@@ -2,3 +2,17 @@
     display: flex;
     gap: 24px;
 }
+
+@media screen and (max-width: 1025px) {
+    .preview__pictures {
+        margin-top: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media screen and (max-width: 536px) {
+    .preview__pictures {
+        gap: 10px;
+    }
+}

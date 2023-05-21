@@ -9,3 +9,10 @@
     margin: 10px auto 0;
     padding: 0;
 }
+
+@media screen and (max-width: 560px) {
+    .header__word {
+        font-size: 12px;
+        margin: 0;
+    }
+}

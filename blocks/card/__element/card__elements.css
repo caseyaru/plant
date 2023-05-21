@@ -13,3 +13,24 @@
     border: 2px solid #40c752;
     transform: scale(1.1);
 }
+
+@media screen and (max-width:1200px) {
+    .card__element {
+        width: 200px;
+        height: 209px;
+    }
+}
+
+@media screen and (max-width:928px) and (min-width:461px){
+    .card__element {
+        width: 150px;
+        height: 157px;
+    }
+}
+/* 
+@media screen and (max-width:460px) {
+    .card__element {
+        width: 200px;
+        height: 209px;
+    }
+} */

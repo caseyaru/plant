@@ -4,3 +4,15 @@
     justify-content: space-between;
     gap: 112px;
 }
+
+@media screen and (max-width: 1280px) {
+    .header__stat {
+        gap: 60px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .header__stat {
+        gap: 30px;
+    }
+}

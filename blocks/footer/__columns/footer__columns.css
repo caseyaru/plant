@@ -3,3 +3,23 @@
 	justify-content: space-between;
     gap: 128px;
 }
+
+@media screen and (max-width:1200px){
+    .footer__columns {
+        gap: 50px;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .footer__columns {
+        flex-direction: column;
+        gap: 20px;
+        justify-content: flex-start;
+    }
+}
+
+@media screen and (max-width:448px){
+    .footer__columns {
+        gap: 10px;
+    }
+}

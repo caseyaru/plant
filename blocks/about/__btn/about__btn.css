@@ -12,3 +12,13 @@
     width: 155px;
     height: 55px;
 }
+
+@media screen and (max-width:576px) {
+    .about__btn {
+        width: 90px;
+        height: 31px;
+        padding: 2px 5px;
+        font-size: 12px;
+        line-height: 100%;
+    }
+}

@@ -4,4 +4,11 @@
     justify-content: space-between;
     max-width: 1152px;
     margin: 0 auto 0;
+    padding: 0 20px 0 20px;
+}
+
+@media screen and (max-width:1024px){
+    .footer {
+        justify-content: space-around;
+    }
 }

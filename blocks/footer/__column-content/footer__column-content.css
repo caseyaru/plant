@@ -1,0 +1,25 @@
+.footer__column-content {
+	opacity: 1;
+}
+
+@media screen and (max-width:1024px){
+    .footer__column-content {
+        width: 150px;
+        opacity: 0;
+        border: 1px #066F14 solid;
+        background-color: white;
+        border-radius: 5px;
+        z-index: 2;
+        position: absolute;
+        left: -135%;
+        top: 0;
+        transition: opacity 0.2s linear;
+    }
+}
+
+@media screen and (max-width:468px){
+    .footer__column-content {
+        left: -220%;
+        top: 0;
+    }
+}

@@ -1,0 +1,4 @@
+.inst__btn_type_back {
+    transform: translateX(-100%) rotate(180deg);
+    left: 0px;
+}

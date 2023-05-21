@@ -6,4 +6,12 @@
     font-weight: 700;
     font-size: 24px;
     line-height: 31px;
+    /* position: absolute; */
+}
+
+@media screen and (max-width:468px){
+    .footer__column-heading {
+        font-size: 14px;
+        text-align: right;
+    }
 }

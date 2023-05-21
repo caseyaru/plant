@@ -13,3 +13,9 @@
     color: #066F14;
     font-size: 18px;
 }
+
+@media screen and (max-width:460px) {
+    .catalog__link {
+        font-size: 12px;
+    }
+}

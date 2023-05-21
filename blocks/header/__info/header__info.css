@@ -1,0 +1,16 @@
+.header__info {
+    padding: 0;
+}
+
+@media screen and (max-width: 1024px){
+    .header__info {
+        box-sizing: border-box;
+        padding-left: 40px;
+    }
+}
+
+@media screen and (max-width: 560px){
+    .header__info {
+        padding-left: 20px;
+    }
+}

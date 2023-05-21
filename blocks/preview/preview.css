@@ -4,3 +4,18 @@
     justify-content: space-between;
     max-width: 1152px;
 }
+
+@media screen and (max-width: 1208px) {
+    .preview {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .preview {
+        align-content: center;
+        flex-direction: column;
+        place-items: center;
+    }
+}

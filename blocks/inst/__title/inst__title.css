@@ -8,3 +8,15 @@
     margin: 0;
     padding: 0;
 }
+
+@media screen and (max-width: 668px){
+    .inst__title {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 472px){
+    .inst__title {
+        font-size: 22px;
+    }
+}

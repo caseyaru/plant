@@ -7,3 +7,10 @@
     color: #4A4A4A;
     margin: 24px 0 0;
 }
+
+@media screen and (max-width:576px) {
+    .about__first-text {
+        font-size: 12px;
+        line-height: 110%;
+    }
+}

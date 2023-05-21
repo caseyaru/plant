@@ -2,4 +2,23 @@
     height: 153px;
     display: block;
     margin: 0 auto;
+    object-fit: cover;
 }
+
+@media screen and (max-width:1200px) {
+    .card__img {
+        height: 100px;
+    }
+}
+
+@media screen and (max-width:928px) and (min-width:461px){
+    .card__img {
+        height: 70px;
+    }
+}
+
+/* @media screen and (max-width:460px) {
+    .card__img {
+        height: 100px;
+    }
+} */

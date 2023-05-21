@@ -6,3 +6,9 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+
+@media screen and (max-width:1000px){
+    .about {
+        margin: 60px auto 0;
+    }
+}

@@ -1,3 +1,16 @@
 .quote__text {
     position: relative;
 }
+
+@media screen and (max-width:1200px){
+    .quote__text {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width:700px){
+    .quote__text {
+        margin-top: 100px;
+        padding: 0 20px 0 20px;
+    }
+}

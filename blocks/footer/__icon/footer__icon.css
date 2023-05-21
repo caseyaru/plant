@@ -7,3 +7,10 @@
 .footer__icon:hover + .footer__span-text {
     opacity: 1;
 }
+
+@media screen and (max-width:668px){
+    .footer__icon {
+        width: 24px;
+        height: 24px;
+    }
+}

@@ -4,3 +4,17 @@
     justify-content: space-evenly;
     gap: 24px;
 }
+
+@media screen and (max-width:696px) {
+    .card {
+        gap: 15px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width:460px) {
+    .card {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

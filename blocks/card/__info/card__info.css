@@ -2,3 +2,17 @@
     margin-left: 32px;
     margin-bottom: 29px;
 }
+
+@media screen and (max-width:1200px) {
+    .card__info {
+        margin-left: 12px;
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width:460px) {
+    .card__info {
+        margin-left: 10px;
+        margin-bottom: 0;
+    }
+}

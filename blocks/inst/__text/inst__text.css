@@ -10,3 +10,15 @@
     padding: 0;
     max-width: 544px;
 }
+
+@media screen and (max-width: 668px){
+    .inst__text {
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width: 472px){
+    .inst__text {
+        max-width: 260px;
+    }
+}

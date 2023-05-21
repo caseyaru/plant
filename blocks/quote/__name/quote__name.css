@@ -8,3 +8,9 @@
     line-height: 25px;
     color: #FFFFFF;
 }
+
+@media screen and (max-width:700px){
+    .quote__name {
+        font-size: 12px;
+    }
+}

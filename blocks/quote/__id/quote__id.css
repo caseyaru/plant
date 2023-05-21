@@ -3,3 +3,10 @@
     height: 60px;
     object-fit: cover;
 }
+
+@media screen and (max-width:700px){
+    .quote__id {
+        width: 40px;
+        height: 40px;
+    }
+}

@@ -69,7 +69,7 @@
     <main class="main">
         <section class="preview">
             <div class="preview__title">
-                <p class="preview__text">We have lots of plants collection for you and your family</p>
+                <p class="preview__text">We have lots of plants collection for&nbsp;you&nbsp;and your&nbsp;family</p>
                 <a href="#" class="preview__link">See all collection &rarr;</a>
             </div>
             <div class="preview__pictures">
@@ -78,6 +78,7 @@
                 <img src="./images/pl3.png" alt="A picture of plant from our collection" class="preview__img">
             </div>
         </section>
+
         <section class="about" id="about">
             <div class="about__tree">
                 <img src="./images/pic.png" alt="Just a tree" class="about__picture">
@@ -90,6 +91,7 @@
                 <button class="about__btn" type="button">Read More</button>
             </div>
         </section>
+
         <section class="catalog">
             <h3 class="catalog__title">Our Best Product</h3>
             <nav class="catalog__navigation">
@@ -133,6 +135,7 @@
             </div>
             <button class="catalog__btn-view">View All</button>
         </section>
+
         <section class="quote">
             <div class="quote__text">
                 <h2 class="quote__title">What Our Customers Says</h2>
@@ -151,6 +154,7 @@
             </div>
             <img src="./images/photo.png" alt="Photo of our customer" class="quote__img">
         </section>
+
         <section class="subscribe">
             <div class="subscribe__info">
                 <h3 class="subscribe__title">Subscribe Our Newsletter</h3>
@@ -162,6 +166,7 @@
             </div>
             <img src="./images/form.png" alt="A plant" class="subscribe__decor">
         </section>
+
         <section class="inst">
             <h3 class="inst__title">Follow Us on Instagram</h3>
             <p class="inst__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu, tempor, accu msan sit amet nunc cursus. Nec tristique at in erat lectus</p>
@@ -187,6 +192,34 @@
                     <div class="inst__block"></div>
                 </a></li>
             </ul>
+            <div class="inst__slider">
+                <button class="inst__btn inst__btn_type_next"></button>
+                <button class="inst__btn inst__btn_type_back"></button>
+                <div class="inst__list">
+                    <div class="inst__slides">
+                        <a class="inst__element inst__element_type_slide" href="#">
+                            <img src="./images/photo1.png" alt="A photo from out Instagram!" class="inst__photo">
+                            <div class="inst__block"></div>
+                        </a>
+                        <a class="inst__element inst__element_type_slide" href="#">
+                            <img src="./images/photo2.png" alt="A photo from out Instagram!" class="inst__photo">
+                            <div class="inst__block"></div>
+                        </a>
+                        <a class="inst__element inst__element_type_slide" href="#">
+                            <img src="./images/photo3.png" alt="A photo from out Instagram!" class="inst__photo">
+                            <div class="inst__block"></div>
+                        </a>
+                        <a class="inst__element inst__element_type_slide" href="#">
+                            <img src="./images/photo4.png" alt="A photo from out Instagram!" class="inst__photo">
+                            <div class="inst__block"></div>
+                        </a>
+                        <a class="inst__element inst__element_type_slide" href="#">
+                            <img src="./images/photo5.png" alt="A photo from out Instagram!" class="inst__photo">
+                            <div class="inst__block"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <footer class="footer">
@@ -211,7 +244,7 @@
         <div class="footer__columns">
             <div class="footer__column">
                 <h3 class="footer__column-heading">Navigation</h3>
-                <nav>
+                <nav class="footer__column-content">
                    <ul class="footer__column-links">
                       <li>
                          <a class="footer__column-link" title="Home" href="#">
@@ -238,7 +271,7 @@
              </div>
              <div class="footer__column">
                 <h3 class="footer__column-heading">About Us</h3>
-                <nav>
+                <nav class="footer__column-content">
                    <ul class="footer__column-links">
                       <li>
                          <a class="footer__column-link" title="Contact" href="#">
@@ -265,7 +298,7 @@
              </div>
              <div class="footer__column">
                 <h3 class="footer__column-heading">Help</h3>
-                <nav>
+                <nav class="footer__column-content">
                    <ul class="footer__column-links">
                       <li>
                          <a class="footer__column-link" title="Coustomers Services" href="#">
@@ -292,5 +325,6 @@
              </div>
         </div>
     </footer>
+    <script src="./pages/index.js"></script>
 </body>
 </html>

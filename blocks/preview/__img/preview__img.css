@@ -7,3 +7,24 @@
 .preview__img:hover {
     transform: scale(1.2);
 }
+
+@media screen and (max-width: 768px) {
+    .preview__img {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .preview__img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .preview__img {
+        width: 80px;
+        height: 80px;
+    }
+}

@@ -1,0 +1,13 @@
+.inst__slider {
+    margin: 40px auto 0;
+    position: relative;
+    width: 230px;
+    height: 241px;
+    display: none;
+}
+
+@media screen and (max-width: 1200px){
+    .inst__slider {
+        display: block;
+    }
+}

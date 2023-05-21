@@ -3,7 +3,37 @@
     padding: 20px 24px 30px 32px;
     position: absolute;
     bottom: 43px;
+    left: 0;
     box-sizing: border-box;
     width: 597px;
     z-index: 2;
+}
+
+@media screen and (max-width:1200px){
+    .quote__block {
+        bottom: 153px;
+        left: -30px;
+    }
+}
+
+@media screen and (max-width:700px){
+    .quote__block {
+        width: 450px;
+        left: 40px;
+        /* margin-left: -100px; */
+        padding: 10px 14px 20px 12px;
+    }
+}
+
+@media screen and (max-width:544px){
+    .quote__block {
+        width: 250px;
+        bottom: 170px;
+    }
+}
+
+@media screen and (max-width:413px){
+    .quote__block {
+        bottom: 210px;
+    }
 }

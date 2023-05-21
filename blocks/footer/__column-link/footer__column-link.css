@@ -13,3 +13,9 @@
 .footer__column-link:hover {
     color: #066F14;
 }
+
+@media screen and (max-width:468px){
+    .footer__column-link {
+        font-size: 14px;
+    }
+}

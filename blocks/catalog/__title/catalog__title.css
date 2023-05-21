@@ -7,3 +7,15 @@
     margin: 0;
     padding: 0;
 }
+
+@media screen and (max-width:928px) {
+    .catalog__title {
+        font-size: 26px;
+    }
+}
+
+/* @media screen and (max-width:460px) {
+    .catalog__title {
+        font-size: 24px;
+    }
+} */

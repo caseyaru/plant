@@ -1,15 +1,29 @@
 .header__main {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 0 auto 102px;
-    /* gap: 113px; */
+    gap: 113px;
     max-width: 1222px;
     align-items: center;
 }
 
 @media screen and (max-width: 1280px) {
     .header__main {
-        /* gap: 104px; */
+        box-sizing: border-box;
         padding: 0 40px 0;
+        gap: 40px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .header__main {
+        gap: 10px;
+        margin-bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 504px) {
+    .header__main {
+        flex-direction: column-reverse;
     }
 }
