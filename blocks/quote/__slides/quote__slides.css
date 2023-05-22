@@ -1,0 +1,4 @@
+.quote__slides {
+    display: inline-flex;
+    transition: all 0.8s;
+}

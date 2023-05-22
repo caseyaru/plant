@@ -73,6 +73,12 @@
 @import url(../blocks/quote/__text/quote__text.css);
 @import url(../blocks/quote/__title/quote__title.css);
 @import url(../blocks/quote/__name/quote__name.css);
+@import url(../blocks/quote/__btn/quote__btn.css);
+@import url(../blocks/quote/__buttons/quote__buttons.css);
+@import url(../blocks/quote/__content/quote__content.css);
+@import url(../blocks/quote/__slider/quote__slider.css);
+@import url(../blocks/quote/__slides/quote__slides.css);
+@import url(../blocks/quote/__list/quote__list.css);
 /* subscribe */
 @import url(../blocks/subscribe/subscribe.css);
 @import url(../blocks/subscribe/__btn/subscribe__btn.css);

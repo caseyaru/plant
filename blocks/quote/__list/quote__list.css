@@ -1,0 +1,17 @@
+.quote__list {
+    width: 597px;
+    max-height: 204px;
+    overflow: hidden;
+}
+
+@media screen and (max-width:700px){
+    .quote__list {
+        width: 450px;
+    }
+}
+
+@media screen and (max-width:544px){
+    .quote__list {
+        width: 250px;
+    }
+}

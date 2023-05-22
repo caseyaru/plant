@@ -1,0 +1,13 @@
+.quote__btn {
+    width: 24px;
+    height: 24px;
+    background-color: #143B19;
+    border: none;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.quote__btn:nth-child(2) {
+    background-color: #FFFFFF;
+    color: #066F14;
+}

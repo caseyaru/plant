@@ -1,43 +1,72 @@
-const slider = document.querySelector('.inst__slider');
+// quote's slider
+
+const sliderQuote = document.querySelector('.quote__slider');
+const sliderQuotes = document.querySelectorAll('.quote__content');
+const lineQuotes = document.querySelector('.quote__slides');
+const buttonNextQuote = document.querySelector('.quote__btn_type_next');
+const buttonBackQuote = document.querySelector('.quote__btn_type_back');
+let countQuotes = 0;
+let sliderWidthQuote = sliderQuote.offsetWidth;
+
+const nextQuote = () => {
+    countQuotes++;
+    if (countQuotes >= sliderQuotes.length) {
+        countQuotes = 0;
+    }
+    rollQuotes();
+}
+
+const backQuote = () => {
+    countQuotes--;
+    if (countQuotes < 0) {
+        countQuotes = sliderQuotes.length - 1;
+    }
+    rollQuotes();
+}
+
+const rollQuotes = () => {
+    lineQuotes.style.transform = `translateX(${-countQuotes * sliderWidthQuote}px)`;
+}
+
+buttonNextQuote.addEventListener('click', nextQuote);
+buttonBackQuote.addEventListener('click', backQuote);
+
+// instagram slider (mobile version)
+
+const sliderInst = document.querySelector('.inst__slider');
 const sliderImages = document.querySelectorAll('.inst__element_type_slide');
 const sliderLine = document.querySelector('.inst__slides');
+const buttonNextImage = document.querySelector('.inst__btn_type_next');
+const buttonBackImage = document.querySelector('.inst__btn_type_back');
+let countImage = 0;
+let sliderWidthInst = sliderInst.offsetWidth;
 
-const buttonNext = document.querySelector('.inst__btn_type_next');
-const buttonBack = document.querySelector('.inst__btn_type_back');
-
-let sliderCount = 0;
-let sliderWidth = slider.offsetWidth;
-
-function nextSlide() {
-    sliderCount++;
-
-    if (sliderCount >= sliderImages.length) {
-        sliderCount = 0;
+const nextImage = () => {
+    countImage++;
+    if (countImage >= sliderImages.length) {
+        countImage = 0;
     }
-
-    rollSlider();
+    rollImages();
 }
 
-function backSlide() {
-    sliderCount--;
-
-    if (sliderCount < 0) {
-        sliderCount = sliderImages.length - 1;
+const backImage = () => {
+    countImage--;
+    if (countImage < 0) {
+        countImage = sliderImages.length - 1;
     }
-
-    rollSlider();
+    rollImages();
 }
 
-function rollSlider(){
-    sliderLine.style.transform = `translateX(${-sliderCount * sliderWidth}px)`
+const rollImages = () => {
+    sliderLine.style.transform = `translateX(${-countImage * sliderWidthInst}px)`
 }
 
 setInterval(() => {
-    nextSlide()
-}, 2000)
+    nextImage()
+}, 2500)
 
-buttonNext.addEventListener('click', nextSlide);
-buttonBack.addEventListener('click', backSlide);
+buttonNextImage.addEventListener('click', nextImage);
+buttonBackImage.addEventListener('click', backImage);
 
 // выпадающее меню
 

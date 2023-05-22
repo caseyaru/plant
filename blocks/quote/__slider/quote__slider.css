@@ -1,0 +1,17 @@
+.quote__slider {
+    position: relative;
+    width: 597px;
+    max-height: 204px;
+}
+
+@media screen and (max-width:700px){
+    .quote__slider {
+        width: 450px;
+    }
+}
+
+@media screen and (max-width:544px){
+    .quote__slider {
+        width: 250px;
+    }
+}
