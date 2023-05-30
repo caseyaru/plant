@@ -24,9 +24,15 @@
 @media screen and (max-width: 560px){
     .header__btn-learn{
         width: 90px;
-        height: 31px;
+        height: 41px;
         padding: 2px 5px;
         font-size: 12px;
         line-height: 100%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .header__btn-learn{
+        align-self: center;
     }
 }

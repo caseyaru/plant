@@ -1,8 +1,12 @@
 .subscribe__form {
-    position: relative;
     width: 451px;
     height: 56px;
     margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 8px 8px 8px 20px;
 }
 
 @media screen and (max-width:712px) {
@@ -15,6 +19,7 @@
     .subscribe__form {
         width: 298px;
         height: 40px;
+        padding: 5px 3px 5px 10px;
     }
 }
 

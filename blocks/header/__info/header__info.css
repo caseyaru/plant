@@ -1,11 +1,13 @@
 .header__info {
     padding: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 @media screen and (max-width: 1024px){
     .header__info {
         box-sizing: border-box;
-        padding-left: 40px;
+        padding-left: 30px;
     }
 }
 

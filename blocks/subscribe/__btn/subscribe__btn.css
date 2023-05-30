@@ -11,7 +11,12 @@
     color: #FEFEFE;
     width: 98px;
     height: 40px;
-    position: absolute;
-    right: 8px;
-    top: 8px;
+    margin-left: 5px;
+}
+
+@media screen and (max-width:458px) {
+    .subscribe__btn {
+        width: 90px;
+        height: 30px;
+    }
 }

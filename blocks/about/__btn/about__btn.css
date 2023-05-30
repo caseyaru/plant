@@ -13,6 +13,12 @@
     height: 55px;
 }
 
+@media screen and (max-width:1080px){
+    .about__btn {
+        align-self: center;
+    }
+}
+
 @media screen and (max-width:576px) {
     .about__btn {
         width: 90px;
@@ -20,5 +26,6 @@
         padding: 2px 5px;
         font-size: 12px;
         line-height: 100%;
+        align-self: center;
     }
 }

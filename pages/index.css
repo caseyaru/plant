@@ -9,6 +9,7 @@
 @import url(../blocks/header/__blocks/header__blocks.css);
 @import url(../blocks/header/__contacts/header__contacts.css);
 @import url(../blocks/header/__contacts/_type/header__contacts_type_max.css);
+@import url(../blocks/header/__contacts/_type/header__contacts_type_show.css);
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__btn/header__btn.css);
 /* header main */
@@ -36,7 +37,6 @@
 @import url(../blocks/preview/__pictures/preview__pictures.css);
 @import url(../blocks/preview/__img/preview__img.css);
 /* about */
-@import url(../blocks/about/__tree/about__tree.css);
 @import url(../blocks/about/about.css);
 @import url(../blocks/about/__main/about__main.css);
 @import url(../blocks/about/__link/about__link.css);
@@ -96,7 +96,6 @@
 @import url(../blocks/inst/__title/inst__title.css);
 @import url(../blocks/inst/__block/inst__block.css);
 @import url(../blocks/inst/__element/inst__element.css);
-/* @import url(../blocks/inst/__element/_type/inst__element_type_full.css); */
 @import url(../blocks/inst/__btn/inst__btn.css);
 @import url(../blocks/inst/__btn/_type/inst__btn_type_next.css);
 @import url(../blocks/inst/__btn/_type/inst__btn_type_back.css);

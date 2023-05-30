@@ -68,14 +68,21 @@ setInterval(() => {
 buttonNextImage.addEventListener('click', nextImage);
 buttonBackImage.addEventListener('click', backImage);
 
-// выпадающее меню
+// drop-down menu (header & footer)
+
+const menuHeader = document.querySelector('.header__contacts_type_max');
+const dropHeader = document.querySelector('.header__nav-title');
+const openSourses = () => {
+    menuHeader.classList.toggle('header__contacts_type_show');
+}
+dropHeader.addEventListener('click', openSourses)
 
 const containers = document.querySelectorAll('.footer__column');
 containers.forEach((container) => {
     const dropContainer = container.querySelector('.footer__column-content');
     const dropButton = container.querySelector('.footer__column-heading');
     function drop(){
-        dropContainer.classList.toggle("footer__column-content_type_show");
+        dropContainer.classList.toggle('footer__column-content_type_show');
     }
     dropButton.addEventListener('click', drop)
 })

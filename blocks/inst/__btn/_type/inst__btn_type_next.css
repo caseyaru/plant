@@ -1,4 +1,4 @@
 .inst__btn_type_next {
     transform: translateX(100%);
-    right: 0px;
+    right: -10px;
 }

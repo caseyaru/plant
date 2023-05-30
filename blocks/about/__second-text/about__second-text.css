@@ -9,7 +9,7 @@
 }
 
 @media screen and (max-width:576px) {
-    .about__first-text {
+    .about__second-text {
         font-size: 14px;
         line-height: 110%;
         margin-bottom: 18px;
