@@ -1,9 +1,9 @@
 # Plant
-[Проект на Github-pages](https://caseyaru.github.io/plant/)
+[Проект на Github-pages](https://caseyaru.github.io/plant/)  
 [Исходный макет](https://www.figma.com/file/WtquyKGDNrLb6j9CJacvTk/Plant3?type=design&node-id=0-1&t=CL1OobNs4po0F6fG-0)
 
 ### Разработка
-Данный проект создан на основе свободного макета для тренировки навыков вёрстки с использованием HTML и CSS и закрепления знаний в JavaScript.
+Данный проект создан на основе свободного макета для тренировки навыков вёрстки с использованием HTML5 и CSS и закрепления знаний в JavaScript.
 
 1. Методология БЭМ (файловая структура Nested)
 5. Адаптивная вёрстка под разные типы устройств
